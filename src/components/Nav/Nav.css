@@ -1,0 +1,27 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.7rem 1.6rem;
+}
+.Nav-logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.Nav-in input{
+    width: 25vw;
+    padding: 0.6rem 0.8rem;
+    font-weight: 500;
+    border-radius: 21px;
+    border-style: none;
+    background-color: #F2F2F2;
+    font-size: 1rem;
+}
+.Nav-btn{
+    display: flex;
+    gap: 1.2rem;
+}
+.Nav-btn a{
+    color: #2F6CE5;
+    font-weight: 700;
+}

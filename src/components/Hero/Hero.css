@@ -1,0 +1,37 @@
+
+
+.Hero::before{
+    content: "";
+    background-image: url("../../imgs/hero.png");
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.Hero{
+       color:#FFFFFF;
+       background-color: black;
+ 
+    height: 100vh;
+    position: relative; 
+}
+.Hero h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.Hero p{
+    font-size: 1.8rem;
+}
+.Hero div{
+    position: absolute;
+    z-index: 1;
+    bottom: 9rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
